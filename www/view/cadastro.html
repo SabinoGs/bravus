@@ -1,0 +1,40 @@
+<div class="container">
+
+<!-- <div class="bar bar-header bar-stable">
+  <h1 class="title">cadastro</h1>
+</div> -->
+<div class="row responsive-sm">
+  <div class="list">
+
+    <form  role="form" ng-submit="register(user)">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Nome do atleta</span>
+        <input type="text" name="username" ng-model="user.username" placeholder="Nome do atleta">
+
+      </label>
+
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Email</span>
+        <input type="text" name="email" ng-model="user.email" placeholder="Email">
+      </label>
+
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Senha</span>
+        <input type="password" name="senha" ng-model="user.password" placeholder="Senha">
+      </label>
+
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Telefone</span>
+        <input type="text" name="telefone" ng-model="user.telefone" placeholder="Telefone">
+      </label>
+
+      <!-- <div class="button-bar "> -->
+        <input type="submit"   class="btn btn-primary" value="Cadastrar"></input>
+    <!-- </div> -->
+      <h5>{{user}}</h5>
+    </form>
+  </div>
+
+</div>
+
+</div>
